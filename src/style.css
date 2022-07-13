@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+  background-color: red;
+}
+
+header{
+  display: grid;
+  padding: 2rem;
+  font-size: 3rem;
+ place-content: center;;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.movie_name{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.movie_img{
+  width: 100%;
+  
+}
+
